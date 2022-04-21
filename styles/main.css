@@ -1,0 +1,56 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  top: 0;
+}
+
+.console-container {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.top-bar {
+  width: inherit;
+  height: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #4c4e4e;
+  border-bottom: 1px solid #292c33;
+  -webkit-box-shadow: 0 0 15px #333434;
+          box-shadow: 0 0 15px #333434;
+}
+
+.power-off {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 7.5px;
+  margin-left: 10px;
+  background-color: #a64040;
+}
+
+.minimalize {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 7.5px;
+  margin-left: 30px;
+  background-color: #fdbc2e;
+}
+
+.main-content {
+  width: inherit;
+  height: 355px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #292c33;
+  -webkit-box-shadow: 0 0 15px #333434;
+          box-shadow: 0 0 15px #333434;
+}
+/*# sourceMappingURL=main.css.map */
